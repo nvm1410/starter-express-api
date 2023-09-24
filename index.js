@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.get("/", (req, res) => {
-  res.send("Hello world");
+  res.send("Hello world 1.0");
 });
 
 app.post("/webhook", (req, res) => {
